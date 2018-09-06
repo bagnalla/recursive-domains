@@ -1,5 +1,7 @@
 # recursive-domains
 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pythagoras_Tree_Colored.png/220px-Pythagoras_Tree_Colored.png "Logo Title Text 1")
+
 This is a purely constructive Coq development for computing solutions
 to recursive domain equations as colimits (i.e., suprema) of ω-chains
 in the category **Cpo**<sup>ep</sup> (objects are CPOs and morphisms
@@ -70,6 +72,8 @@ colimits. We use a slightly weird version of this continuity property,
 which suffices for our needs but lacks the full generality of the
 usual one.
 
+## TL;DR
+
 A user of this library can define a functor F using the provided
 functor combinators, and apply the projective limit construction to
 obtain a type μF (along with an order relation and constructive
@@ -85,7 +89,7 @@ witnessing this isomorphism:
 * unfold : F X → X
 
 
-# Supported functors:
+## Supported functors:
 * constant
 * identity
 * product (bifunctor)
