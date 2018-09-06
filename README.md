@@ -1,6 +1,6 @@
 # recursive-domains
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pythagoras_Tree_Colored.png/220px-Pythagoras_Tree_Colored.png "Logo Title Text 1")
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pythagoras_Tree_Colored.png/220px-Pythagoras_Tree_Colored.png "Pythagoras tree")
 
 This is a purely constructive Coq development for computing solutions
 to recursive domain equations as colimits (i.e., suprema) of ω-chains
