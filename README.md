@@ -54,7 +54,7 @@ continuous mappings:
 such that:
 
 * proj ∘ embed = id<sub>A</sub>
-* embed ∘ proj ≤ id<sub>A</sub>
+* embed ∘ proj ≤ id<sub>B</sub>
 
 witnessing the fact that B is in some sense a better approximation
 than A (A ⊑ B), because A can be faithfully embedded (preserving
@@ -82,11 +82,15 @@ to the following isomorphism (we may loosely call it an equation):
 
 X ≃ F X
 
-The user also receives two continuous mappings, fold and unfold,
-witnessing this isomorphism:
+The user also receives two continuous mappings, fold and unfold:
 
 * fold : X → F X
 * unfold : F X → X
+
+such that:
+
+* unfold ∘ fold = id<sub>X</sub>
+* fold ∘ unfold = id<sub>F X</sub>
 
 
 ## Supported functors:
